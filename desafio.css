@@ -1,0 +1,216 @@
+*{
+     font-family: 'Poppins', sans-serif;
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: aliceblue;
+}
+
+header{
+
+    margin-top: 47px;
+    margin-left: 43px;
+   
+}
+.container{
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left{
+    
+    display: inline-block; /*um ao lado do outro */
+    width: 60%; /*Toma 60% da pagina */
+    margin-top: 20%;
+    padding-left: 140px;
+    
+}
+ 
+.container-right{
+
+    display: inline-block; /*um ao lado do outro */
+   /*background-color: #5D5D7D;*/    
+    height: 120%;
+    width: 40%;/*toma 40% da página */
+    position: absolute; /*ele define a posição do container ao lado direito como absoluto, no canto dele sem alterações. */
+    
+}
+
+
+.links{      
+    
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;  
+    letter-spacing: 0.80px; 
+
+}
+
+.links:hover{
+
+    background-color: #6FBF44;
+}
+
+
+
+
+.btn-header{
+
+    width: 124px;
+    height: 51px;    
+    border-radius: 10px;
+    background-color: #6FBF44;
+    border: 1px #4CB538;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn-header{
+
+    background-color:#4CB538;
+}
+
+.btn-header:hover{
+
+    opacity: 0.8;
+}
+
+img{
+
+   position: relative;
+   top:25%;/* distancia do topo, acima.  */
+   left: 115px; /*posição da imagem em relação a margem direita */
+   width: 400px;
+   height: 350px;
+  }
+
+
+
+
+h1{
+
+    width: 582px;
+    height: 165px;
+    font-weight: 700;
+    font-size: 62px;
+    color:#161A49;
+    
+    
+}
+
+p{
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color:#4B505A;     
+    height: 99px;
+    margin-top: 57px;
+    margin-bottom: 47px;
+     
+}
+
+.btn-more{
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color:#6FBF44;
+    width: 130px;
+    height: 55px;    
+    cursor: pointer;   
+    background: transparent;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-more:hover{
+    background-color: #4CB538;
+    color:azure;
+}
+
+@media screen and (max-width:900px){
+
+    .links{   
+
+        display:none;
+    } 
+
+    .btn-header{
+
+        width: 100px;
+        height: 45px;        
+        margin-left: 600px;   
+        border-radius: 10px;
+        background-color: #6FBF44;
+        border: 1px #4CB538;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: 1px;
+        cursor: pointer;       
+        position: static;
+    }
+    .btn-more{
+
+        margin: 0 auto;
+        display: block;
+    }
+        
+    .container-left{
+
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-right{
+
+        display: block;
+        height: auto; /*vai ficar de acordo com tamnanho disponível, ou 50%  mas se usar os 50% em vez do auto,
+         o fundo vai ficar faltando no final da imagem*/
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    img{
+
+        position: static;
+           
+        
+    }
+
+    h1{
+        font-size: 36px;
+        line-height:52px;
+        width: auto;
+        margin-top: 58px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    p{
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+
+}
