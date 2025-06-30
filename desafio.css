@@ -86,10 +86,10 @@ header{
 img{
 
    position: relative;
-   top:25%;/* distancia do topo, acima.  */
-   left: 115px; /*posição da imagem em relação a margem direita */
-   width: 400px;
-   height: 350px;
+   top:246px;/* distancia do topo, acima.  */
+   left: 120px; /*posição da imagem em relação a margem direita */
+   width: 590px;
+   height: 500px;
   }
 
 
@@ -98,9 +98,13 @@ img{
 h1{
 
     width: 582px;
-    height: 165px;
+    height: 164px;
+    margin-top: 340px;
+    margin-left: 800px;
     font-weight: 700;
     font-size: 62px;
+    line-height: 83px;
+    letter-spacing: 0.6px;
     color:#161A49;
     
     
@@ -108,14 +112,16 @@ h1{
 
 p{
 
+    width: 493px;
+    height: 99px;
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
     letter-spacing: 0.5px;
     color:#4B505A;     
     height: 99px;
-    margin-top: 57px;
-    margin-bottom: 47px;
+    margin-top: 80px;
+    margin-left: 800px;
      
 }
 
@@ -123,14 +129,15 @@ p{
 
     font-weight: 500;
     font-size: 18px;
-    line-height: 27px;
+    line-height: 100%;
     letter-spacing: 1px;
     color:#6FBF44;
-    width: 130px;
-    height: 55px;    
+    width: 112px;
+    height: 27px; 
+    margin-top: 10px; 
+    margin-left: 800px;  
     cursor: pointer;   
-    background: transparent;
-    margin-bottom: 20px;
+    background: transparent;    
     border: none;
     border-radius: 15px;
 }
