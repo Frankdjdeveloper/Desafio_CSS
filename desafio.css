@@ -147,7 +147,7 @@ p{
     color:azure;
 }
 
-@media screen and (max-width:900px){
+/* @media screen and (max-width:900px){
 
     .links{   
 
@@ -189,7 +189,7 @@ p{
         display: block;
         height: auto; /*vai ficar de acordo com tamnanho disponível, ou 50%  mas se usar os 50% em vez do auto,
          o fundo vai ficar faltando no final da imagem*/
-        width: 100%;
+        /* width: 100%;
         position: static;
         padding: 40px;
     }
@@ -220,4 +220,78 @@ p{
     }
     
 
+}  */
+
+@media screen and (max-width: 900px) {
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .container-left, .container-right {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        position: static;
+    }
+
+    img {
+        position: static;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        top: unset;
+        left: unset;
+    }
+
+    h1, p, .btn-more {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+       /* text-align: center; */
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 36px;
+        width: 90%;
+        height: auto;
+    }
+
+    p {
+        font-size: 16px;
+        width: 90%;
+        height: auto;
+        line-height: 1.6;
+    }
+
+    .btn-more {
+        
+        font-size: 16px;
+        width: auto;
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+
+    header {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .links {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .btn-header {
+        margin: 10px auto;
+        display: block;
+    }
 }
